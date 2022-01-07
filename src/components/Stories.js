@@ -3,6 +3,9 @@ import React from "react";
 import videoMp4 from "../img/video.mp4";
 import videoWebm from "../img/video.webm";
 
+import imgStory1 from "../img/nat-8.jpg"
+import imgStory2 from "../img/nat-9.jpg"
+
 export default function Stories() {
   return (
     <section className="section-stories">
@@ -22,7 +25,7 @@ export default function Stories() {
         <div className="story">
           <figure className="story__shape">
             <img
-              src="img/nat-8.jpg"
+              src={imgStory1}
               alt="Person on a tour"
               className="story__img"
             />
@@ -47,7 +50,7 @@ export default function Stories() {
         <div className="story">
           <figure className="story__shape">
             <img
-              src="img/nat-9.jpg"
+              src={imgStory2}
               alt="Person on a tour"
               className="story__img"
             />

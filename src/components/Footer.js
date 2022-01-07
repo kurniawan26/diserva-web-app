@@ -1,18 +1,24 @@
 import React from "react";
 
+import imgLogoGreen1 from "../img/logo-green-1x.png";
+import imgLogoGreen2 from "../img/logo-green-2x.png";
+
+import imgLogoGreenSmall1 from "../img/logo-green-small-1x.png";
+import imgLogoGreenSmall2 from "../img/logo-green-small-2x.png";
+
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__logo-box">
         <picture className="footer__logo">
           <source
-            srcSet="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
+            srcSet={`${imgLogoGreenSmall1} 1x, ${imgLogoGreenSmall2} 2x`}
             media="(max-width: 37.5em)"
           />
           <img
-            srcSet="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+            srcSet={`${imgLogoGreen1} 1x, ${imgLogoGreen2} 2x`}
             alt="Full logo"
-            src="img/logo-green-2x.png"
+            src={imgLogoGreen2}
           />
         </picture>
       </div>

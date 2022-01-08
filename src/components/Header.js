@@ -11,12 +11,12 @@ export default function Header() {
 
       <div className="header__text-box">
         <h1 className="heading-primary">
-          <span className="heading-primary--main">Outdoors</span>
-          <span className="heading-primary--sub">is where life happens</span>
+          <span className="heading-primary--main">Diserva</span>
+          <span className="heading-primary--sub">Mari kembangkan bisnis kamu bersama kami</span>
         </h1>
 
         <a href="#section-tours" className="btn btn--white btn--animated">
-          Discover our tours
+          Pelajari Layanan Kami
         </a>
       </div>
     </header>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import videoMp4 from "../img/video.mp4";
+import videoMp4 from "../img/video1.mp4";
 import videoWebm from "../img/video.webm";
 
 import imgStory1 from "../img/nat-8.jpg"

@@ -1,8 +1,8 @@
 import React from "react";
 
-import imgNatLarge1 from "../img/nat-1-large.jpg";
-import imgNatLarge2 from "../img/nat-2-large.jpg";
-import imgNatLarge3 from "../img/nat-3-large.jpg";
+import imgNatLarge1 from "../img/design-img1.jpg";
+import imgNatLarge2 from "../img/design-img2.jpg";
+import imgNatLarge3 from "../img/design-img3.jpg";
 
 import imgNat1 from "../img/nat-1.jpg";
 import imgNat2 from "../img/nat-2.jpg";
@@ -13,28 +13,22 @@ export default function About() {
     <div>
       <section className="section-about">
         <div className="u-center-text u-margin-bottom-big">
-          <h2 className="heading-secondary">
-            Exciting tours for adventurous people
-          </h2>
+          <h2 className="heading-secondary">Tentang Kami</h2>
         </div>
 
         <div className="row">
           <div className="col-1-of-2">
             <h3 className="heading-tertiary u-margin-bottom-small">
-              You're going to fall in love with nature
+              Apa itu Diserva?
             </h3>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              ipsum sapiente aspernatur libero repellat quis consequatur ducimus
-              quam nisi exercitationem omnis earum qui.
+              Diserva adalah sebuah perusahaan digital yang bergerak dalam
+              bidang membantu UMKM berkembang dan dapat bersaing dengan pasar
+              yang kian menuju zaman serta online
             </p>
 
-            <h3 className="heading-tertiary u-margin-bottom-small">
-              Live adventures like you never have before
-            </h3>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores nulla deserunt voluptatum nam.
+              
             </p>
 
             <a href="#tours" className="btn-text">

@@ -4,7 +4,7 @@ export default function Tours() {
   return (
     <section className="section-tours" id="section-tours">
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">Most popular tours</h2>
+        <h2 className="heading-secondary">Most popular Service</h2>
       </div>
 
       <div className="row">
@@ -14,7 +14,7 @@ export default function Tours() {
               <div className="card__picture card__picture--1">&nbsp;</div>
               <h4 className="card__heading">
                 <span className="card__heading-span card__heading-span--1">
-                  The Sea Explorer
+                  Business Analytics
                 </span>
               </h4>
               <div className="card__details">
@@ -34,7 +34,7 @@ export default function Tours() {
                   <p className="card__price-value">$297</p>
                 </div>
                 <a href="#popup" className="btn btn--white">
-                  Book now!
+                  Get Now!
                 </a>
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function Tours() {
               <div className="card__picture card__picture--2">&nbsp;</div>
               <h4 className="card__heading">
                 <span className="card__heading-span card__heading-span--2">
-                  The Forest Hiker
+                  Digital Marketing
                 </span>
               </h4>
               <div className="card__details">
@@ -67,7 +67,7 @@ export default function Tours() {
                   <p className="card__price-value">$497</p>
                 </div>
                 <a href="#popup" className="btn btn--white">
-                  Book now!
+                  Get Now!
                 </a>
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function Tours() {
               <div className="card__picture card__picture--3">&nbsp;</div>
               <h4 className="card__heading">
                 <span className="card__heading-span card__heading-span--3">
-                  The Snow Adventurer
+                  Web / App Development
                 </span>
               </h4>
               <div className="card__details">
@@ -100,7 +100,7 @@ export default function Tours() {
                   <p className="card__price-value">$897</p>
                 </div>
                 <a href="#popup" className="btn btn--white">
-                  Book now!
+                  Get now!
                 </a>
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function Tours() {
 
       <div className="u-center-text u-margin-top-huge">
         <a href="#blank" className="btn btn--green">
-          Discover all tours
+          Discover all Service
         </a>
       </div>
     </section>

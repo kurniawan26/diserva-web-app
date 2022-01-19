@@ -3,8 +3,8 @@ import React from "react";
 import videoMp4 from "../img/video1.mp4";
 import videoWebm from "../img/video.webm";
 
-import imgStory1 from "../img/nat-8.jpg"
-import imgStory2 from "../img/nat-9.jpg"
+import imgStory1 from "../img/nat-8.jpg";
+import imgStory2 from "../img/nat-9.jpg";
 
 export default function Stories() {
   return (
@@ -29,18 +29,17 @@ export default function Stories() {
               alt="Person on a tour"
               className="story__img"
             />
-            <figcaption className="story__caption">Mary Smith</figcaption>
+            <figcaption className="story__caption">Azhar Luthfi</figcaption>
           </figure>
           <div className="story__text">
             <h3 className="heading-tertiary u-margin-bottom-small">
               I had the best week ever with my family
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              ipsum sapiente aspernatur libero repellat quis consequatur ducimus
-              quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente
-              aspernatur libero repellat quis consequatur ducimus quam nisi
-              exercitationem omnis earum qui.
+              Saya sangat puas dengan pelayanan pembuatan website dari Diserva
+              ini, website yang dibuat sangat user friendly dan mudah untuk di
+              operasikan, dan membuat pertumbuhan yang cukup pesat pada
+              komunitas Reylie kami
             </p>
           </div>
         </div>

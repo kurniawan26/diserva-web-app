@@ -3,14 +3,14 @@ import About from "./About";
 import Book from "./Book";
 import Features from "./Features";
 import Stories from "./Stories";
-import Tours from "./Tours";
+import Services from "./Services";
 
 export default function MainContent() {
   return (
     <main>
       <About />
       <Features />
-      <Tours />
+      <Services />
       <Stories />
       <Book />
     </main>

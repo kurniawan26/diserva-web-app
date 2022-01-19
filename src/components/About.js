@@ -22,17 +22,15 @@ export default function About() {
               Apa itu Diserva?
             </h3>
             <p className="paragraph">
-              Diserva adalah sebuah perusahaan digital yang bergerak dalam
-              bidang membantu UMKM berkembang dan dapat bersaing dengan pasar
-              yang kian menuju zaman serta online
+            Diserva (Digital Servica Agency) partner terbaik untuk bisnis anda, kami menawarkan 4 jasa digital (Web Development, Mobile App Development, Digital Marketing dan Marketing Consulting) untuk membantu digitalisasi usaha kamu
             </p>
 
             <p className="paragraph">
-              
+            Kabar baik jika kamu pelaku UMKM kami memberikan penawaran khusus langsung aja yuk hubungi kami di kontak yang tersedia
             </p>
 
             <a href="#tours" className="btn-text">
-              Learn more &rarr;
+              Pelajari Lebih Lanjut &rarr;
             </a>
           </div>
           <div className="col-1-of-2">

@@ -12,7 +12,7 @@ export default function Header() {
       <div className="header__text-box">
         <h1 className="heading-primary">
           <span className="heading-primary--main">Diserva</span>
-          <span className="heading-primary--sub">Mari kembangkan bisnis kamu bersama kami</span>
+          <span className="heading-primary--sub">Partner tepat untuk menjangkau Target Market anda </span>
         </h1>
 
         <a href="#section-tours" className="btn btn--white btn--animated">

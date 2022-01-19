@@ -14,16 +14,15 @@ export default function Tours() {
               <div className="card__picture card__picture--1">&nbsp;</div>
               <h4 className="card__heading">
                 <span className="card__heading-span card__heading-span--1">
-                  Business Analytics
+                  Marketing consulting
                 </span>
               </h4>
               <div className="card__details">
                 <ul>
-                  <li>3 day tours</li>
-                  <li>Up to 30 people</li>
-                  <li>2 tour guides</li>
-                  <li>Sleep in cozy hotels</li>
-                  <li>Difficulty: easy</li>
+                  <li>Support marketing</li>
+                  <li>Planning business</li>
+                  <li>Monitoring business</li>
+                  <li>Evaluating business</li>
                 </ul>
               </div>
             </div>
@@ -52,11 +51,10 @@ export default function Tours() {
               </h4>
               <div className="card__details">
                 <ul>
-                  <li>7 day tours</li>
-                  <li>Up to 40 people</li>
-                  <li>6 tour guides</li>
-                  <li>Sleep in provided tents</li>
-                  <li>Difficulty: medium</li>
+                  <li>Social media handling </li>
+                  <li>Manage content by expert</li>
+                  <li>Strategist marketing plan </li>
+                  <li>Specialist in big social media</li>
                 </ul>
               </div>
             </div>
@@ -80,16 +78,15 @@ export default function Tours() {
               <div className="card__picture card__picture--3">&nbsp;</div>
               <h4 className="card__heading">
                 <span className="card__heading-span card__heading-span--3">
-                  Web / App Development
+                  Web / Mobile Development
                 </span>
               </h4>
               <div className="card__details">
                 <ul>
-                  <li>5 day tours</li>
-                  <li>Up to 15 people</li>
-                  <li>3 tour guides</li>
-                  <li>Sleep in provided tents</li>
-                  <li>Difficulty: hard</li>
+                  <li>Free 6 Bulan Perawatan</li>
+                  <li>UI/UX Friendly</li>
+                  <li>SEO Support</li>
+                  <li>Content Support</li>
                 </ul>
               </div>
             </div>
@@ -110,7 +107,7 @@ export default function Tours() {
 
       <div className="u-center-text u-margin-top-huge">
         <a href="#blank" className="btn btn--green">
-          Discover all Service
+          Discover all Services
         </a>
       </div>
     </section>

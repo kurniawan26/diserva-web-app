@@ -29,12 +29,12 @@ export default function Tours() {
             <div className="card__side card__side--back card__side--back-1">
               <div className="card__cta">
                 <div className="card__price-box">
-                  <p className="card__price-only">Only</p>
-                  <p className="card__price-value">$297</p>
+                  {/* <p className="card__price-only">Tertarik</p>
+                  <p className="card__price-value">$297</p> */}
+                  <a href="#popup" className="btn btn--white">
+                    Get Now!
+                  </a>
                 </div>
-                <a href="#popup" className="btn btn--white">
-                  Get Now!
-                </a>
               </div>
             </div>
           </div>
@@ -61,12 +61,12 @@ export default function Tours() {
             <div className="card__side card__side--back card__side--back-2">
               <div className="card__cta">
                 <div className="card__price-box">
-                  <p className="card__price-only">Only</p>
-                  <p className="card__price-value">$497</p>
-                </div>
+                  {/* <p className="card__price-only">Tertarik</p>
+                  <p className="card__price-value">$497</p> */}
                 <a href="#popup" className="btn btn--white">
                   Get Now!
                 </a>
+                </div>
               </div>
             </div>
           </div>
@@ -93,12 +93,12 @@ export default function Tours() {
             <div className="card__side card__side--back card__side--back-3">
               <div className="card__cta">
                 <div className="card__price-box">
-                  <p className="card__price-only">Only</p>
-                  <p className="card__price-value">$897</p>
-                </div>
+                  {/* <p className="card__price-only">Tertarik</p>
+                  <p className="card__price-value">$897</p> */}
                 <a href="#popup" className="btn btn--white">
                   Get now!
                 </a>
+                </div>
               </div>
             </div>
           </div>

@@ -35,7 +35,7 @@ export default function Features() {
             <i className="feature-box__icon icon-basic-map"></i>
             <h3 className="heading-tertiary u-margin-bottom-small">Creative</h3>
             <p className="feature-box__text">
-              Kita mendesian website dan aplikasi secara kreatif untuk
+              Kita mendesain website dan aplikasi secara kreatif untuk
               memunculkan nilai cerita yang nyaman untuk digunakan oleh para
               pelanggan
             </p>

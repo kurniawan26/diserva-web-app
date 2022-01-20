@@ -1,7 +1,5 @@
 import React from "react";
 
-import imgLogo1 from "../img/logo-1x.png";
-import imgLogo2 from "../img/logo-2x.png";
 
 import imgLogoSmall1 from "../img/logo-small-1x.png";
 import imgLogoSmall2 from "../img/logo-small-1x.png";
@@ -16,9 +14,9 @@ export default function Footer() {
             media="(max-width: 37.5em)"
           />
           <img
-            srcSet={`${imgLogo1} 1x, ${imgLogo2} 2x`}
+            srcSet={`${imgLogoSmall1} 1x`}
             alt="Full logo"
-            src={imgLogo1}
+            src={imgLogoSmall1}
           />
         </picture>
       </div>

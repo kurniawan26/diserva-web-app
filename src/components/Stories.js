@@ -3,8 +3,7 @@ import React from "react";
 import videoMp4 from "../img/video1.mp4";
 import videoWebm from "../img/video.webm";
 
-import imgStory1 from "../img/nat-8.jpg";
-import imgStory2 from "../img/nat-9.jpg";
+import imgStory1 from "../img/Azhar.png";
 
 export default function Stories() {
   return (
@@ -33,7 +32,7 @@ export default function Stories() {
           </figure>
           <div className="story__text">
             <h3 className="heading-tertiary u-margin-bottom-small">
-              I had the best week ever with my family
+              I had the best experience ever with Diserva
             </h3>
             <p>
               Saya sangat puas dengan pelayanan pembuatan website dari Diserva
@@ -45,7 +44,7 @@ export default function Stories() {
         </div>
       </div>
 
-      <div className="row">
+      {/* <div className="row">
         <div className="story">
           <figure className="story__shape">
             <img
@@ -68,7 +67,7 @@ export default function Stories() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="u-center-text u-margin-top-huge">
         <a href="#s" className="btn-text">

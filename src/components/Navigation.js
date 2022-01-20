@@ -13,9 +13,9 @@ export default function Navigation() {
 
         <nav className="navigation__nav">
             <ul className="navigation__list">
-                <li className="navigation__item"><a href="#about" className="navigation__link"><span>01</span>About Natous</a></li>
+                <li className="navigation__item"><a href="#about" className="navigation__link"><span>01</span>About Diserva</a></li>
                 <li className="navigation__item"><a href="#benefit" className="navigation__link"><span>02</span>Your benfits</a></li>
-                <li className="navigation__item"><a href="#popular" className="navigation__link"><span>03</span>Popular tours</a></li>
+                <li className="navigation__item"><a href="#popular" className="navigation__link"><span>03</span>Popular Services</a></li>
                 <li className="navigation__item"><a href="#story" className="navigation__link"><span>04</span>Stories</a></li>
                 <li className="navigation__item"><a href="#book" className="navigation__link"><span>05</span>Book now</a></li>
                 </ul>

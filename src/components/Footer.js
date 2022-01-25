@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 
 import imgLogoSmall1 from "../img/logo-small-1x.png";
@@ -7,6 +8,7 @@ import imgLogoSmall2 from "../img/logo-small-1x.png";
 export default function Footer() {
   return (
     <footer className="footer">
+      <Fade bottom>
       <div className="footer__logo-box">
         <picture className="footer__logo">
           <source
@@ -58,6 +60,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
+      </Fade>
     </footer>
   );
 }

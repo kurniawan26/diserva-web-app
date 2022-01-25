@@ -1,8 +1,10 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 export default function Book() {
   return (
     <section className="section-book">
+      <Fade top>
       <div className="row">
         <div className="book">
           <div className="book__form">
@@ -72,6 +74,7 @@ export default function Book() {
           </div>
         </div>
       </div>
+      </Fade>
     </section>
   );
 }

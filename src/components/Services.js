@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 export default function Tours() {
   return (
@@ -9,6 +10,7 @@ export default function Tours() {
 
       <div className="row">
         <div className="col-1-of-3">
+          <Fade bottom delay={300}>
           <div className="card">
             <div className="card__side card__side--front">
               <div className="card__picture card__picture--1">&nbsp;</div>
@@ -38,9 +40,11 @@ export default function Tours() {
               </div>
             </div>
           </div>
+          </Fade>
         </div>
 
         <div className="col-1-of-3">
+          <Fade bottom delay={600}>
           <div className="card">
             <div className="card__side card__side--front">
               <div className="card__picture card__picture--2">&nbsp;</div>
@@ -70,9 +74,11 @@ export default function Tours() {
               </div>
             </div>
           </div>
+          </Fade>
         </div>
 
         <div className="col-1-of-3">
+          <Fade bottom delay={900}>
           <div className="card">
             <div className="card__side card__side--front">
               <div className="card__picture card__picture--3">&nbsp;</div>
@@ -102,6 +108,7 @@ export default function Tours() {
               </div>
             </div>
           </div>
+          </Fade>
         </div>
       </div>
 

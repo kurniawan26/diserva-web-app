@@ -1,9 +1,11 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 import logo from "../img/logo-white.png"
 
 export default function Header() {
   return (
+    <Fade left>
     <header className="header">
       <div className="header__logo-box">
         <img src={logo} alt="Logo" className="header__logo" />
@@ -20,5 +22,6 @@ export default function Header() {
         </a>
       </div>
     </header>
+    </Fade>
   );
 }

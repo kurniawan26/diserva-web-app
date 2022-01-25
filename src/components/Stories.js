@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 import videoMp4 from "../img/video1.mp4";
 import videoWebm from "../img/video.webm";
@@ -21,6 +22,7 @@ export default function Stories() {
       </div>
 
       <div className="row">
+        <Fade right>
         <div className="story">
           <figure className="story__shape">
             <img
@@ -42,6 +44,7 @@ export default function Stories() {
             </p>
           </div>
         </div>
+        </Fade>
       </div>
 
       {/* <div className="row">

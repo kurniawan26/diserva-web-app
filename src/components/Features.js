@@ -1,72 +1,27 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 
+import featuresJson from "../json/features.json";
+
 export default function Features() {
   return (
-    <section className="section-features">
+    <section className="section-features" ref={featuresJson}>
       <div className="row">
-        <div className="col-1-of-4">
-          <Fade bottom delay={500}>
-            <div className="feature-box">
-              <i className="feature-box__icon icon-basic-world"></i>
-              <h3 className="heading-tertiary u-margin-bottom-small">
-                Professionality
-              </h3>
-              <p className="feature-box__text">
-                Menjunjung tinggi Profesionalitas dalam mengerjakan segala macam
-                projek yang masuk ke Diserva
-              </p>
+        {featuresJson.features.map((feature, index) => {
+          return (
+            <div className="col-1-of-4" key={index}>
+              <Fade bottom delay={200 * index}>
+                <div className="feature-box feature">
+                  <i className="feature-box__icon icon-basic-world"></i>
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    {feature.heading}
+                  </h3>
+                  <p className="feature-box__text">{feature.description}</p>
+                </div>
+              </Fade>
             </div>
-          </Fade>
-        </div>
-
-        <div className="col-1-of-4">
-          <Fade bottom delay={700}>
-            <div className="feature-box">
-              <i className="feature-box__icon icon-basic-compass"></i>
-              <h3 className="heading-tertiary u-margin-bottom-small">
-                UMKM First
-              </h3>
-              <p className="feature-box__text">
-                Mengedepankan pengembangan usaha UMKM sebagai bentuk komitment
-                dalam membantu perekoniam yang bebasis kerakyatan di Indonesia
-              </p>
-            </div>
-          </Fade>
-        </div>
-
-        <div className="col-1-of-4">
-          <Fade bottom delay={900}>
-            <div className="feature-box">
-              <i className="feature-box__icon icon-basic-map"></i>
-              <h3 className="heading-tertiary u-margin-bottom-small">
-                Creative
-              </h3>
-              <p className="feature-box__text">
-                Kita mendesain website dan aplikasi secara kreatif untuk
-                memunculkan nilai cerita yang nyaman untuk digunakan oleh para
-                pelanggan
-              </p>
-            </div>
-          </Fade>
-        </div>
-
-        <div className="col-1-of-4">
-          <Fade bottom delay={1100}>
-            <div className="feature-box">
-              <i className="feature-box__icon icon-basic-heart"></i>
-              <h3 className="heading-tertiary u-margin-bottom-small">
-                Social Impact
-              </h3>
-              <p className="feature-box__text">
-                Diserva berkomitmen untuk tidak hanya mencari profit margin dari
-                bisnis, tetapi juga berusaha untuk memberikan dampak sosial,
-                sebagai bentuk wujud nyata dalam kontribusi untuk menolong
-                masyarakat secara luas
-              </p>
-            </div>
-          </Fade>
-        </div>
+          );
+        })}
       </div>
     </section>
   );

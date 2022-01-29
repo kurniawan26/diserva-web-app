@@ -1,0 +1,78 @@
+{
+    "features": [
+        {
+            "id": "1",
+            "heading": "Professionality",
+            "description": "Menjunjung tinggi Profesionalitas dalam mengerjakan segala macamprojek yang masuk ke Diserva"
+        },
+        {
+            "id": "2",
+            "heading": "UMKM First",
+            "description": "Mengedepankan pengembangan usaha UMKM sebagai bentuk komitment dalam membantu perekoniam yang bebasis kerakyatan di Indonesia"
+        },
+        {
+            "id": "3",
+            "heading": "Creative",
+            "description": "Kita mendesain website dan aplikasi secara kreatif untuk memunculkan nilai cerita yang nyaman untuk digunakan oleh para pelanggan"
+        },
+        {
+            "id": "4",
+            "heading": "Social Impact",
+            "description": "Diserva berkomitmen untuk tidak hanya mencari profit margin dari bisnis, tetapi juga berusaha untuk memberikan dampak sosial, sebagai bentuk wujud nyata dalam kontribusi untuk menolong masyarakat secara luas"
+        }
+    ],
+    "radio" : [
+        {
+            "id": "marketing-consultant",
+            "label": "Marketing Consultant",
+            "htmlFor": "marketing-consultant"
+        },
+        {
+            "id": "business-consultant",
+            "label": "Business Consultant",
+            "htmlFor": "business-consultant"
+        },
+        {
+            "id": "web-development",
+            "label": "Web Development",
+            "htmlFor": "web-development"
+        },
+        {
+            "id": "mobile-development",
+            "label": "Mobile Development",
+            "htmlFor": "mobile-development"
+        }
+    ],
+    "input" : [
+        {
+            "type": "text",
+            "id": "name",
+            "label": "Full Name",
+            "htmlFor": "name"
+        },
+        {
+            "type": "email",
+            "id": "email",
+            "label": "Email Address",
+            "htmlFor": "email"
+        },
+        {
+            "type": "text",
+            "id": "phone",
+            "label": "Phone",
+            "htmlFor": "phone"
+        },
+        {
+            "type": "text",
+            "id": "company",
+            "label": "Company",
+            "htmlFor": "company"
+        },
+        {
+            "type": "text",
+            "id": "message",
+            "label": "Message",
+            "htmlFor": "message"
+        }
+    ]
+}
